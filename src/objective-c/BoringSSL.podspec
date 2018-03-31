@@ -70,8 +70,7 @@ Pod::Spec.new do |s|
   versions = version.split('.')
   major_version = versions[0] + '.0'
   s.source = {
-    :git => 'https://boringssl.googlesource.com/boringssl',
-    :tag => "version_for_cocoapods_#{major_version}",
+    :git => 'https://github.com/RykerBay/boringssl.git'
   }
 
   s.ios.deployment_target = '5.0'
